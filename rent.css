@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    padding: 20px 30px;
+    display: flex;
+    justify-items: center;
+    color:  rgba(2E709E);
+    gap: 30px;
+    padding-bottom: 0px;
+   color: rgb(62, 62, 209);
+   align-items: center;
+}
+.header i{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.header ul{
+    display: flex;
+    justify-items: center;
+    gap: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn-get{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    margin-right: 0px;
+    padding-top: 10px;
+   
+}
+
+.main {
+    background-image: linear-gradient(rgba(rgb(62, 62, 209,))rgba(rgb(62, 62, 209,))) url(https://www.edmunds.com/assets/m/cs/blt6636dd2dd43fe180/66cd18ecd97a0cd40d54fdc5/2026_bugatti_tourbillon_front_1600.jpg);
+    padding: 20px 30px;
+    display: flex;
+    justify-items: center;
+    color:  rgba(2E709E);
+    gap: 30px;
+    padding-bottom: 0px;
+   color: rgb(62, 62, 209);
+   align-items: center;
+   background-image:linear-gradient(rgba(20, 4, 4, 0.6), rgba(0 ,0 ,0 ,0.9)), url(https://www.edmunds.com/assets/m/cs/blt6636dd2dd43fe180/66cd18ecd97a0cd40d54fdc5/2026_bugatti_tourbillon_front_1600.jpg);
+margin-top: 20px;
+}
+
+ .latest1{
+ text-align: center;
+ margin-top: 20px;
+
+
+ } 
+
+    
+
+ .latest{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(90, 90, 147);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   
+ }
+.cars{
+   display: flex;
+     justify-content: center;
+     gap: 30px;
+      border-bottom-right-radius: 50%;
+      margin-bottom: 20px;
+      text-align: center;
+      color: white;
+      margin-top: 120px;
+  }
+  .cars1{
+    width: 300px;
+    height: 250px;
+    padding-top: 40px;
+    background-color: #2E709E;
+    border-radius: 20px;
+ 
+}
+.cars img{
+    width: 250px;
+    margin-top: -90px;
+}
+.cars1 h3{
+    font-size: 30px;
+    font-family:sans-serif;
+}
+.cars1 p {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #E6A43B;
+    font-weight: 800;
+}
+.cars1 button {
+    border: none;
+    background-color: #E6A43B;
+    width: 120px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 45px;
+}
+    
+ .footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #E6A43B;
+    height: 600px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer-left{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.footer-left {
+    font-size: 20px;
+    color: blue;
+    margin-right: 0px;
+}
+.footer p{
+    color: white;
+}
+
+.footer-right{
+    width: 500px;
+    height: 300px;
+}
+
+.i{
+    font-size: 20px;
+    color: white;
+}
+
+.footer h1{
+    font-size: 60px;
+    color: white;
+}
+
+.footer-right i{
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.latest1 span{
+   color: #E6A43B;
+}

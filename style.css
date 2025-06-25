@@ -1,0 +1,328 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.header{
+
+    padding: 20px 30px;
+    display: flex;
+    justify-items: center;
+    /* color:  rgba(2E709E); */
+    gap: 30px;
+   color: rgb(62, 62, 209);
+   align-items: center;
+}
+/* .header i{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+} */
+ .logoKey {
+    display: flex;
+    gap: 2px;
+    /* align-items: center; */
+    justify-content: center;
+ }
+.header ul{
+    display: flex;
+    justify-items: center;
+    gap: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn-get{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    margin-right: 0px;
+    padding-top: 10px;
+   
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px                                                                       ; */
+}
+
+.main-left{
+    width: 700px;
+    height: 500px;
+    font-size: 30px;
+
+}
+.main-left span{
+    color: orange;
+}
+
+.main-right{
+    width: 500px;
+    height: 500px;
+   box-shadow: rgb(138, 74, 29);
+}
+.main-right img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.test{
+   
+    display: flex;
+    background-color: chocolate;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+    padding-top: 40px;
+    margin-left: 40px;
+    border-top-right-radius:25%;
+}
+
+
+h1{
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+   
+  .cars{
+      display: flex;
+     justify-items: center;
+     gap: 30px;
+     margin-left: 30px;
+      border-bottom-right-radius: 50%;
+      margin-bottom: 20px;
+      text-align: center;
+      color: white;
+  }
+    
+.cars1{
+    width: 300px;
+    height: 400px;
+  padding-top: 40px;
+  background-color: rgb(90, 90, 175);
+  gap: 35px;
+  margin-left: 20px;
+ 
+}
+.cars img{
+    width: 300px;
+    height: 300px;
+   
+}
+.Car{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(90, 90, 175);
+    border-bottom-left-radius: 400px;
+    /* border-bottom-right-radius: 20px; */
+    border-bottom-right-radius: 40%;
+    margin-left: 30px;
+    margin-right: 20px;
+
+
+
+}
+.cars2{
+    width: 450px;
+    height: 600px;
+    background-color: chocolate;
+    margin-top: 60px;
+    text-align: center;
+    border-bottom-left-radius: 45%;
+    margin-right: 20px;
+    
+    
+}
+.Car img{
+    width: 350px;
+    height: 450px;
+    padding-top: 30px;
+   
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.arrow i{
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: blue;
+    margin-bottom: 20px;
+    border-radius: 80%;
+    color: white;
+
+}
+
+.journey{
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+    margin-left: 20px;
+    
+}
+
+.journey h1{
+    font-size: 40px;
+    color: rgb(90, 90, 175);
+    padding-bottom:20px;
+}
+.j-car img{
+width: 500px;
+}
+
+.btn-book{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(90, 90, 175);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    margin-right: 0px;
+    padding-top: 10px;
+}
+.beyond{
+    display: flex;
+    justify-content:space-between;
+    gap: 30px; 
+}
+
+.unleash h1{
+  font-size: 40px;
+ color: rgb(90, 90, 175);
+ margin-right: 75px;
+
+}
+
+.ad{
+    margin-top: 40px;
+    background-color: chocolate;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content:space-between;
+    gap: 50px; 
+    border-bottom-right-radius: 35%;  
+    margin-left: 20px;
+}
+
+.ad p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.app{
+    display: flex;
+}
+
+.adventure h1{
+    margin-right: 70px;
+}
+
+.moc img{
+    width: 200px;
+    margin-right: 60px;
+   padding-bottom: 80px;
+}
+.map-right h1{
+    font-size: 40px;
+    color: rgb(90, 90, 175);
+    margin-right: 0px;
+}
+
+
+
+.map{
+  display: flex;
+    justify-content:space-between;
+    gap: 30px; 
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.vector img{
+    width: 500px;
+    color: rgb(90, 90, 175);
+    margin-right: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: chocolate;
+    height: 600px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer-left{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.footer-left {
+    font-size: 20px;
+    color: blue;
+    margin-right: 0px;
+}
+.footer p{
+    color: white;
+}
+
+.footer-right{
+    width: 500px;
+    height: 300px;
+}
+
+.i{
+    font-size: 20px;
+    color: white;
+}
+
+.footer h1{
+    font-size: 60px;
+    color: white;
+}
+
+.footer-right i{
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+    padding-top: 30px;
+}

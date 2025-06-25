@@ -1,0 +1,670 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ .logoKey {
+    
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .logoKey i {
+    font-size: 20px;
+ }
+ .header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+.header-right ul{
+    display: flex;
+    justify-items: center;
+    gap: 40px;
+    font-size: 20px;
+    color: #2E709E;
+    margin-top: 10px;
+}
+/* .header-right ul li:hover {
+    color: black;
+} */
+.header-right button {
+    width: 170px;
+    height: 50px;
+    background-color: #E6A43B;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.header i {
+    display: none;
+}
+@media (max-width:600px){
+.header-right {
+    display: none;
+}
+.header i {
+    display: block;
+    font-size: 30px;
+    color: #2E709E;
+}
+}
+
+
+.main{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-left{
+    width: 550px;
+    font-size: 30px;
+
+}
+.main-left h1{
+  text-align: left;
+  padding-top: 40px;
+  color: #2E709E;
+  line-height: 60px;
+}
+.main-left span{
+    color: orange;
+}
+.main-left p {
+    font-size: 18px;
+    width: 450px;
+    margin-top: 10px;
+}
+.Btns {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.GetTodayeBtn {
+    width: 160px;
+    height: 45px;
+    background-color: #E6A43B;
+    border: none;
+    border-radius: 10px;
+     font-size: 16px;
+    color: white;
+}
+.SeeCars{
+    display: flex;
+    gap: 10px;
+}
+.SeeCarsBtn {
+    background-color: transparent;
+    border: none;
+    color: #2E709E;
+    font-size: 16px;
+    text-decoration: underline;
+    display: flex;
+    gap: 5px;
+
+}
+.SeeCars i {
+    font-size: 20px;
+    color: #2E709E;
+}
+.main-right{
+    width: 600px;
+   /* box-shadow: rgb(138, 74, 29); */
+}
+.main-right img{
+    width: 400px;
+    animation-name:initial 
+}
+/* @media (max-width:600px){
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+    }
+    .main-left{
+        width: 350px;
+    }
+    .main-left p {
+        width: 350px;
+    }
+    .main-right {
+        width: 350px;
+    }
+} */
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.Numbers{
+    width: 60%;
+    height: 120px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: #E6A43B;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+.Numbers div h1 {
+    font-size: 40px;
+}
+.Numbers div p {
+    font-size: 20px;
+}
+.BestDeals {
+    width: 100%;
+    margin-top: 100px;
+}
+.BestDeals h1 {
+text-align: center;
+color: #2E709E;
+}
+
+   
+  .cars{
+      display: flex;
+     justify-content: center;
+     gap: 30px;
+      border-bottom-right-radius: 50%;
+      margin-bottom: 20px;
+      text-align: center;
+      color: white;
+      margin-top: 100px;
+  }
+    
+.cars1{
+    width: 300px;
+    height: 250px;
+    padding-top: 40px;
+    background-color: #2E709E;
+    border-radius: 20px;
+ 
+}
+.cars img{
+    width: 250px;
+    margin-top: -90px;
+}
+.cars1 h3{
+    font-size: 30px;
+    font-family:sans-serif;
+}
+.cars1 p {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #E6A43B;
+    font-weight: 800;
+}
+.cars1 button {
+    border: none;
+    background-color: #E6A43B;
+    width: 120px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 45px;
+}
+.Car{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(90, 90, 175);
+    border-bottom-left-radius: 400px;
+    /* border-bottom-right-radius: 20px; */
+    border-bottom-right-radius: 40%;
+    margin-left: 30px;
+    margin-right: 20px;
+
+
+
+}
+.cars2{
+    width: 450px;
+    height: 600px;
+    background-color: chocolate;
+    margin-top: 60px;
+    text-align: center;
+    border-bottom-left-radius: 45%;
+    margin-right: 20px;
+    
+    
+}
+.Car img{
+    width: 350px;
+    height: 450px;
+    padding-top: 30px;
+   
+}
+.Choose-Car {
+    
+}
+.Top-Text {
+display: flex;
+justify-content: space-between;
+padding: 0px 50px;
+margin-top: 100px;
+}
+.Top-Text h1 {
+    font-size: 35px;
+    color: #2E709E;
+}
+.arrows {
+    display: flex;
+    gap: 10px;
+}
+.arrows i {
+   width: 50px;
+   height: 50px;
+   background-color: #2E709E;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.Choose-Car-Container {
+    width: 90%;
+    height: 400px;
+    margin-top: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #2E709E;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.ChooseCarOne{
+    width: 300px;
+    height: 250px;
+    padding-top: 40px;
+    background-color: #E6A43B;
+    border-radius: 20px;
+    margin-top: 180px;
+    position: relative;
+ 
+}
+.ChooseCarOne img{
+    width: 250px;
+    margin-top: -90px;
+}
+.ChooseCarOne h3{
+    font-size: 30px;
+    font-family:sans-serif;
+    text-align: center;
+}
+.ChooseCarOne p {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #2E709E;
+    font-weight: 800;
+    text-align: center;
+}
+.btnBook {
+    width: 120px;
+    border: none;
+    background-color: #2E709E;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 0px;
+    height: 45px;
+    position: absolute;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.AllCarsBtn {
+    width: 120px;
+    height: 45px;
+    background-color: #E6A43B;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-left: 45%;
+}
+.journey{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+.unleas {
+    width: 450px;
+    margin-top: 50px;
+}
+.unleas h1{
+  font-size: 35px;
+  color: #2E709E;
+}
+.unleas p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.exploreBtn {
+    width: 200px;
+    height: 45px;
+    background-color: #E6A43B;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.j-car img{
+width: 500px;
+margin-top: 50px;
+}
+.beyond {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.unleash {
+    width: 450px;
+    margin-top: 100px;
+    
+}
+.unleash button {
+    width: 200px;
+    height: 45px;
+    background-color: #E6A43B;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+.ad{
+    margin-top: 40px;
+    background-color: #E6A43B;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content:space-between;
+    gap: 50px; 
+    border-bottom-right-radius: 35%;  
+    margin-left: 20px;
+}
+
+.ad p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.app{
+    display: flex;
+}
+
+.adventure h1{
+    margin-right: 70px;
+}
+
+.moc img{
+    width: 200px;
+    margin-right: 60px;
+   padding-bottom: 80px;
+}
+.map-right h1{
+    font-size: 40px;
+    color: rgb(90, 90, 175);
+    margin-right: 0px;
+}
+
+
+
+.map{
+  display: flex;
+    justify-content:space-between;
+    gap: 30px; 
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.vector img{
+    width: 500px;
+    color: rgb(90, 90, 175);
+    margin-right: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+ background-color: #E6A43B;
+    height: 600px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer-left{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.footer-left {
+    font-size: 20px;
+    color: blue;
+    margin-right: 0px;
+}
+.footer p{
+    color: white;
+}
+
+.footer-right{
+    width: 500px;
+    height: 300px;
+}
+
+.i{
+    font-size: 20px;
+    color: white;
+}
+
+.footer h1{
+    font-size: 60px;
+    color: white;
+}
+
+.footer-right i{
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+@media(max-width:600px){
+  .header, .main, .logos, .Numbers, .BestDeals .cars, .Choose-Car-Container, .journey, .beyond, .ad, .map, .footer {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                padding: 0 10px;
+            }
+
+            .main-left, .main-right, .unleas,  .map-right, .vector img, .footer-left, .footer-right {
+                width: 100% !important;
+                text-align: center;
+            }
+
+            .header-right ul, .header-right button {
+                display: none;
+            }
+
+            .header i {
+                display: block;
+                font-size: 28px;
+                color: #2E709E;
+            }
+
+            .cars, .Choose-Car-Container, .footer-left {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .cars1, .ChooseCarOne {
+                margin-bottom: 30px;
+            }
+
+            .Numbers {
+                width: 90%;
+                flex-wrap: wrap;
+                height: auto;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .logos {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .ad, .map {
+                width: 100% !important;
+                padding: 20px;
+            }
+
+            .moc img, .vector img {
+                width: 80%;
+            }
+
+            .footer {
+                padding: 20px;
+            }
+
+            .AllCarsBtn {
+                margin-left: 0;
+            }
+    @media  (max-width:600px){
+        .header {
+            width: 350px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+          .main, .logos, .Numbers, .BestDeals .cars,  .journey, .beyond, .ad, .map, .footer {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                padding: 0 10px;
+            }
+            
+                .Choose-Car-Container{
+                    display: block;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 50px;
+                    width: 350px;
+                    height: 100%;
+                    padding-bottom: 20px;
+                    gap: 30px;
+
+                }
+                .AllCarsBtn {
+                    margin-left: 100px;
+                }
+                .unleash{
+                     display: block;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 30px;
+                }
+
+            .main-left, .main-right, .unleas, .unleash, .map-right, .vector img, .footer-left, .footer-right {
+                width: 100% !important;
+                text-align: center;
+            }
+
+            .header-right ul, .header-right button {
+                display: none;
+            }
+
+            .header i {
+                display: block;
+                font-size: 28px;
+                color: #2E709E;
+            }
+
+            .cars, .Choose-Car-Container, .footer-left {
+                width: 350px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .cars1, .ChooseCarOne {
+                margin-bottom: 30px;
+            }
+
+            .Numbers {
+                width: 90%;
+                flex-wrap: wrap;
+                height: auto;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .logos {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .ad, .map {
+                width: 100% !important;
+                padding: 20px;
+            }
+
+            .moc img, .vector img {
+                width: 80%;
+            }
+
+            .footer {
+                padding: 20px;
+            }
+
+            .AllCarsBtn {
+                margin-left: 0;
+            }
+        
+    }
+}
