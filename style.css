@@ -8,20 +8,14 @@
     padding: 20px 30px;
     display: flex;
     justify-items: center;
-    /* color:  rgba(2E709E); */
     gap: 30px;
    color: rgb(62, 62, 209);
    align-items: center;
 }
-/* .header i{
-    font-size: 20px;
-    margin-left: 60px;
-    margin-top: 10px;
-} */
+
  .logoKey {
     display: flex;
     gap: 2px;
-    /* align-items: center; */
     justify-content: center;
  }
 .header ul{
@@ -30,6 +24,7 @@
     gap: 40px;
     font-size: 20px;
     margin-top: 10px;
+    list-style: none;
 }
 
 .btn-get{
@@ -55,7 +50,7 @@
     justify-content: center;
     gap: 20px;
     padding-top: 40px;
-    padding-bottom: 40px                                                                       ; */
+    padding-bottom: 40px; 
 }
 
 .main-left{
@@ -140,7 +135,6 @@ h1{
     gap: 30px;
     background-color: rgb(90, 90, 175);
     border-bottom-left-radius: 400px;
-    /* border-bottom-right-radius: 20px; */
     border-bottom-right-radius: 40%;
     margin-left: 30px;
     margin-right: 20px;
