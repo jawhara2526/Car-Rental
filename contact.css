@@ -37,11 +37,7 @@
     font-size: 20px;
     color: #2E709E;
     margin-top: 10px;
-<<<<<<< HEAD
     list-style: none;
-=======
-          list-style: none;
->>>>>>> af853644ac17ce669e05f1a1a887395bf1d108fb
 }
 .header-right ul li:hover {
     color: black;
